@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>미디어베리 - 세상에 없던 창작 집단</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ▼▼▼ 1. 모든 페이지가 공유하는 단 하나의 네비게이션 ▼▼▼ -->
+  <nav>
+    <div class="logo-nav">
+      <a href="#home"><img src="/homepage/image/logokr.png" alt="MediaBerry Logo" /></a>
+    </div>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#we-offer">We Offer</a></li>
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact-us">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- ▼▼▼ 2. 모든 페이지 내용을 담는 메인 컨테이너 ▼▼▼ -->
+  <main>
+    <!-- 섹션 1: Home (MP4 배경 적용) -->
+    <section id="home" class="page-section video-background-section">
+      <video class="background-video" autoplay loop muted playsinline>
+          <source src="/homepage/image/wave_background.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+      <div class="overlay"></div>
+      <div class="center-content">
+        <img src="/homepage/image/logofinal2.png" alt="MediaBerry Main Logo" />
+        <div class="tagline">세상에 없던 창작 집단</div>
+      </div>
+      <a href="#we-offer" class="scroll-down" aria-label="Scroll down">
+        <svg width="30" height="50" viewBox="0 0 30 50" fill="none" xmlns="http://www.w3.org/2000/svg" ><rect x="12" y="10" width="6" height="20" rx="3" fill="white" /><path d="M15 40L22 30L8 30L15 40Z" fill="white" /></svg>
+      </a>
+    </section>
+
+    <!-- 섹션 2: We Offer (MP4 배경 적용) -->
+    <section id="we-offer" class="page-section video-background-section">
+      <video class="background-video" autoplay loop muted playsinline>
+          <source src="/homepage/image/moutain_background.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+      <div class="overlay dark"></div>
+      <div class="container">
+        <p data-letter="B"><span>rilliant 날 선 아이디어와</span></p>
+        <p data-letter="E"><span>fficient 효율적인 방법으로</span></p>
+        <p data-letter="R"><span>evolutionary 혁신적이며</span></p>
+        <p data-letter="R"><span>emarkable 주목받는</span></p>
+        <p data-letter="Y"><span>our contents 콘텐츠를 제공합니다</span></p>
+      </div>
+    </section>
+
+    <!-- 섹션 3: About Us (MP4 배경 적용) -->
+    <section id="about-us" class="page-section video-background-section">
+      <video class="background-video" autoplay loop muted playsinline>
+          <source src="/homepage/image/studio_background.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+      <div class="overlay dark"></div>
+      <div class="container">
+        <div class="title-main">在美主義</div>
+        <div class="title-funfirst">Fun First!</div>
+        <div class="subtitle">재미있게 만들고, 재미있게 다가가겠습니다.</div>
+        <ul class="features">
+          <li>지상파, 케이블, 종편등 다양한 채널 제작 노하우</li>
+          <li>다양한 제작 경험을 보유한 20여 명의 전문 제작진</li>
+          <li>경험이 풍부한 다수의 회사 소속 인력풀로 제작 안정성 확보</li>
+          <li>다양한 장르를 제작한 스펙트럼이 넓은 제작사</li>
+          <li>생방송, 종합구성, 다큐멘터리, 예능, 드라마 등 제작 다양성 확보</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 섹션 4: Portfolio -->
+    <section id="portfolio" class="page-section portfolio-section">
+        <div class="tabs">
+            <div class="tab active" data-tab="ebs">EBS</div>
+            <div class="tab" data-tab="tvchosun">TV조선</div>
+            <div class="tab" data-tab="etc">기타</div>
+        </div>
+        <div class="portfolio-container ebs" tabindex="0" aria-label="포트폴리오 섹션">
+            <div class="arrow left" aria-label="이전 페이지">❮</div>
+            <div class="arrow right" aria-label="다음 페이지">❯</div>
+            <div class="slide-wrapper">
+                <div class="slide ebs">
+                    <div class="page" style="display:flex; flex-direction: column; gap: 20px;"><article class="portfolio-item"><a href="https://www.youtube.com/watch?v=_MEeKlFytr0" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/지방의회.png" alt="지식채널e 결코 작지 않은 민주주의" /></a><div class="details"><div class="title">지식채널e [결코 작지 않은 민주주의]</div><div class="subtitle">2024.10 / 3부작</div></div></article><article class="portfolio-item"><a href="https://classe.ebs.co.kr/classe/detail/447158/40009039" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/인권사색.png" alt="클래스e 인권사색" /></a><div class="details"><div class="title">클래스e [인권사색]</div><div class="subtitle">2024.7 / 4부작</div></div></article><article class="portfolio-item"><a href="https://home.ebs.co.kr/jisike/vodReplayView?siteCd=JE&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60479144" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/지금남명.png" alt="지식채널e 지금, 남명..." /></a><div class="details"><div class="title">지식채널e [지금, 남명...]</div><div class="subtitle">2024.5</div></div></article><article class="portfolio-item"><a href="https://www.youtube.com/watch?v=aNT6CiA9Xj8" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/교육백년.png" alt="교육, 앞으로의 백 년을 생각 하다" /></a><div class="details"><div class="title">교육, 앞으로의 백 년을 생각 하다</div><div class="subtitle">2023.12.30</div></div></article><article class="portfolio-item"><a href="https://www.youtube.com/playlist?list=PLpuzWnAKjQgBDrk6nrS687vm49FYLXbiI" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/6.25.png" alt="지식채널 e 6.25 특집" /></a><div class="details"><div class="title">지식채널 e [6.25 특집]</div><div class="subtitle">2023년 / 20회</div></div></article><article class="portfolio-item"><a href="https://classe.ebs.co.kr/classe/detail/440008/40009039" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/원자력.png" alt="클래스 e 당신이 몰랐던 원자력" /></a><div class="details"><div class="title">클래스 e [당신이 몰랐던 원자력]</div><div class="subtitle">2022년 / 10회</div></div></article></div><div class="page" style="display:none; flex-direction: column; gap: 20px;"><article class="portfolio-item"><a href="https://home.ebs.co.kr/live1PM/main" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/오후1시.png" alt="일단 해봐요 생방송 오후 1시" /></a><div class="details"><div class="title">일단 해봐요 생방송 오후 1시</div><div class="subtitle">2021~2022</div></div></article><article class="portfolio-item"><a href="https://www.youtube.com/channel/UCrPQjzfEuKcx0wzh-5S6mKA" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/북채널.png" alt="북채널 e" /></a><div class="details"><div class="title">북채널 e</div><div class="subtitle">2020년 / 15회</div></div></article><article class="portfolio-item"><a href="https://www.ebs.co.kr/tv/show?courseId=BP0PAPC0000000028&stepId=02BP0PAPC0000000028&lectId=20301782" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/더체인지.png" alt="교육대기획 「더 체인지」" /></a><div class="details"><div class="title">교육대기획 「더 체인지」</div><div class="subtitle">2020.6</div></div></article></div>
+                </div>
+                <div class="slide tvchosun">
+                    <div class="page" style="display:flex; flex-direction: column; gap: 20px;"><article class="portfolio-item"><a href="https://broadcast.tvchosun.com/broadcast/program/3/C201600096.cstv" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/땅의역사.png" alt="박종인의 땅의 역사" /></a><div class="details"><div class="title">박종인의 땅의 역사</div><div class="subtitle">2017.4~2024</div></div></article><article class="portfolio-item"><a href="https://vod.tvchosun.com/vod/7/C202299999/28915/vod.cstv?order_type=latest&page=1" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/기업가정신2.png" alt="우리가 몰랐던 '승계' 이야기" /></a><div class="details"><div class="title">우리가 몰랐던 '승계' 이야기</div><div class="subtitle">2024.11</div></div></article><article class="portfolio-item"><a href="https://www.youtube.com/watch?v=dwUxAOW11e8&t=2458s" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/출근합니다.png" alt="특집다큐 [그곳으로 출근합니다]" /></a><div class="details"><div class="title">특집다큐 [그곳으로 출근합니다]</div><div class="subtitle">2023.12</div></div></article><article class="portfolio-item"><a href="https://vod.tvchosun.com/vod/7/C202299999/26236/vod.cstv?order_type=latest&page=1" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/기업가정신1.png" alt="가치 있는 선택 백 년 기업을 잇다" /></a><div class="details"><div class="title">가치 있는 선택 백 년 기업을 잇다</div><div class="subtitle">2023.11</div></div></article><article class="portfolio-item"><a href="https://www.youtube.com/watch?v=fXbHj5N3qZs" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/청년시장2.png" alt="내가 청년 서울시장이다 -시즌3-" /></a><div class="details"><div class="title">내가 청년 서울시장이다 -시즌3-</div><div class="subtitle">2023.9</div></div></article><article class="portfolio-item"><a href="https://vod.tvchosun.com/vod/3/C201709999/25472/vod.cstv" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/윤쭈꾸.png" alt="특집다큐 [내 미래를 부탁해]" /></a><div class="details"><div class="title">특집다큐 [내 미래를 부탁해]</div><div class="subtitle">2023.7</div></div></article></div><div class="page" style="display:none; flex-direction: column; gap: 20px;"><article class="portfolio-item"><a href="https://vod.tvchosun.com/vod/7/C202300093/25127/vod.cstv" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/청년정책.png" alt="2023 청년정책공모전" /></a><div class="details"><div class="title">2023 청년정책공모전</div><div class="subtitle">2023.6</div></div></article><article class="portfolio-item"><a href="https://vod.tvchosun.com/vod/7/C202300006/24302/vod.cstv" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/로드투부산.png" alt="엑스포대백과 [로드투부산]" /></a><div class="details"><div class="title">엑스포대백과 [로드투부산]</div><div class="subtitle">2023.1</div></div></article><article class="portfolio-item"><a href="https://vod.tvchosun.com/vod/7/C202299997/23805/vod.cstv?order_type=latest&page=1" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/다단계.png" alt="특집다큐 [미래 일자리의 조건]" /></a><div class="details"><div class="title">특집다큐 [미래 일자리의 조건]</div><div class="subtitle">2022.11</div></div></article><article class="portfolio-item"><a href="여기에_링크_입력" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/청년시장1.png" alt="정책 오디션 [청년 그리다]" /></a><div class="details"><div class="title">정책 오디션 [청년 그리다]</div><div class="subtitle">2022.10</div></div></article><article class="portfolio-item"><a href="https://vod.tvchosun.com/vod/7/C202299999/22690/vod.cstv?order_type=latest&page=1" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/기업가정신0.jpg" alt="특집 [100년 기업이 나라를 살린다]" /></a><div class="details"><div class="title">특집 [100년 기업이 나라를 살린다]</div><div class="subtitle">2022.5</div></div></article><article class="portfolio-item"><a href="https://broadcast.tvchosun.com/broadcast/program/3/C202000022/17460/preview/329351.cstv" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/펜의역사.png" alt="특집 「민족과 함께한 펜의 역사」" /></a><div class="details"><div class="title">특집 「민족과 함께한 펜의 역사」</div><div class="subtitle">2020.3</div></div></article></div><div class="page" style="display:none; flex-direction: column; gap: 20px;"><article class="portfolio-item"><a href="https://vod.tvchosun.com/vod/3/C201709999/16450/vod.cstv" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/사차혁.png" alt="특집 「2030년 사차혁씨의 하루」" /></a><div class="details"><div class="title">특집 「2030년 사차혁씨의 하루」</div><div class="subtitle">2019.9</div></div></article><article class="portfolio-item"><a href="https://broadcast.tvchosun.com/broadcast/program/7/C201900027.cstv" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/임정둥이.png" alt="「임정둥이의 기억」" /></a><div class="details"><div class="title">「임정둥이의 기억」</div><div class="subtitle">2019.4</div></div></article></div>
+                </div>
+                <div class="slide etc">
+                    <div class="page" style="display:flex; flex-direction: column; gap: 20px;"><article class="portfolio-item"><a href="여기에_링크_입력" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/골프존.png" alt="골프존 라스베가스 CES 홍보 영상" /></a><div class="details"><div class="title">골프존 라스베가스 CES 홍보 영상</div><div class="subtitle">2019.1</div></div></article><article class="portfolio-item"><a href="여기에_링크_입력" class="thumbnail-link" target="_blank" rel="noopener noreferrer"><img src="/homepage/image/경상대.png" alt="경상국립대 교양강좌" /></a><div class="details"><div class="title">경상국립대 교양강좌</div><div class="subtitle">2024.8 / 300편</div></div></article></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 섹션 5: Contact Us -->
+    <section id="contact-us" class="page-section">
+      <div class="contact-container">
+        <h1>Contact Us</h1>
+        <div class="map-container" aria-label="MediaBerry 위치 지도">
+          <div id="daumRoughmapContainer1751856367543" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+          <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+          <script charset="UTF-8">
+            new daum.roughmap.Lander({
+              "timestamp" : "1751856367543",
+              "key" : "4tea855hhip",
+              "mapWidth" : "100%",
+              "mapHeight" : "100%"
+            }).render();
+          </script>
+        </div>
+        <div class="contact-info address">
+          <p><strong>주소:</strong> 경기도 고양시 덕양구 으뜸로130<br />위프라임 트윈타워 614호</p>
+        </div>
+        <div class="contact-info email">
+          <p><strong>E-mail:</strong> <a href="mailto:mediaberrycontents@gmail.com">mediaberrycontents@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
